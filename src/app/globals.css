@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --color-orange: #ef7b48;
+  --color-yellow: oklch(0.852 0.199 91.936);
+
+  /* ✅ Add custom background image */
+  --background-image-hero: url('/assets/Bitmap.png');
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -19,8 +27,24 @@
   }
 }
 
+.siglet-font {
+  font-family: "Sniglet", sans-serif;
+}
+.livvic-font {
+  font-family: "Livvic";
+}
+.manrope-font {
+  font-family: "Manrope";
+}
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+  font-family: "Poppins", serif;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
