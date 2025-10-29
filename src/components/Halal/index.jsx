@@ -7,7 +7,7 @@ export default function HalalSection() {
       <div className="grid md:grid-cols-2 relative z-10 gap-6 items-center py-16 max-w-[1440px] mx-auto pl-4 lg:pl-20">
         {/* Left Text */}
         <div>
-          <h2 className="text-3xl md:text-[66px] font-semibold leading-[66px] text-gray-900 mb-4">
+          <h2 className="text-5xl lg:text-[66px] md:text-nowrap lg:text-wrap font-semibold leading-[66px] text-gray-900 mb-4">
             Let’s Talk About <span className="text-red-600">Halal Meat</span>
           </h2>
           <div className="pl-14 border-l-2 border-[#022700">

@@ -9,7 +9,7 @@ export default function Navbar() {
   const menuItems = ["Home", "Build Your Box", "About", "Shop", "Contact Us"];
 
   return (
-    <nav className="w-full bg-[#FFFFFF58] shadow-md fixed top-0 left-0 z-50">
+    <nav className="w-full bg-[#FFFFFF80] bg-blur-2xl shadow-md fixed top-0 left-0 z-50">
       <div className="max-w-[1353px] mx-auto px-4 flex justify-between items-center h-16">
         
         {/* Logo */}
@@ -18,15 +18,15 @@ export default function Navbar() {
         <img src="/assets/logo.png " className="h-[37px] w-[191px]" alt="" />
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-6 lg:gap-16 xl:gap-20 ml-8 font-medium">
+        <ul className="hidden lg:flex gap-6 lg:gap-10 xl:gap-20 ml-8 font-medium">
           {menuItems.map((item, i) => (
-              <li key={i} className="cursor-pointer hover:text-[#D72638]">{item}</li>
+              <li key={i} className="cursor-pointer text-nowrap hover:text-[#D72638]">{item}</li>
             ))}
         </ul>
             </div>
 
         {/* Icons + Account */}
-        <div className="hidden md:flex items-center gap-5">
+        <div className="hidden lg:flex items-center gap-5">
           <FiBell className="cursor-pointer" />
           <FiShoppingCart className="cursor-pointer" />
           <FiSearch className="cursor-pointer" />
@@ -56,7 +56,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu Button */}
-        <button className="md:hidden text-2xl" onClick={() => setOpenSidebar(true)}>
+        <button className="lg:hidden text-2xl" onClick={() => setOpenSidebar(true)}>
           <FiMenu />
         </button>
       </div>

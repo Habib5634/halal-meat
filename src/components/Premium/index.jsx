@@ -2,8 +2,8 @@ import React from 'react'
 
 const Premium = () => {
     return (
-        <div className=' flex flex-col h-[705px] lg:flex-row'>
-            <img src="/assets/meatpr.png" alt="" className='max-w-full' />
+        <div className=' flex flex-col lg:h-[705px] lg:flex-row'>
+            <img src="/assets/meatpr.png" alt="" className='max-w-full  ' />
             <div className='h-full flex-1 bg-[#B30310] flex flex-col justify-center items-start text-white p-8'>
         <div className=''>
             <h2 className='text-xl text-white mb-5'>MODERN HALAL MEATS</h2>
@@ -16,7 +16,7 @@ Halal Meat</h2>
           <img
             src="/icons/pricon.png" // replace with your actual icon path
             alt="Quality Icon"
-            className="w-[90px] h-[90px]"
+            className="md:w-[90px] md:h-[90px] w-[60px] h-[60px] "
           />
           <div>
             <h3 className="text-2xl font-semibold">Our Commitment to Quality</h3>
@@ -34,7 +34,7 @@ Halal Meat</h2>
           <img
             src="/icons/pricon2.png" // replace with your actual icon path
             alt="Healthy Icon"
-            className="w-[90px] h-[90px]"
+            className="md:w-[90px] md:h-[90px] w-[60px] h-[60px] "
           />
           <div>
             <h3 className="text-2xl font-semibold">Healthy & Delicious Choices</h3>

@@ -4,17 +4,17 @@ import { FaCircleCheck } from 'react-icons/fa6'
 const Intro = () => {
   return (
     <div className='relative'>
-        <div className='w-[562px] h-[497px] bg-[#D72638] absolute top-0 left-0'>
-<img src="/assets/intro1.png" alt="" className='w-full h-full mix-blend-color ' />
+        <div className='w-[562px] h-[497px] bg-[#D72638] hidden md:block lg:hidden xl:block absolute top-0 left-0'>
+<img src="/assets/intro1.png" alt="" className=' w-full h-full mix-blend-color ' />
         </div>
 
        <div className="relative max-w-[1353px] flex justify-between flex-col lg:flex-row items-center  gap-11.5 px-6 py-16 lg:py-[119px] lg:px-20">
-            <div className='relative'>
+            <div className='relative order-2 md:order-1'>
                 <img src="/assets/intromain.png" className='w-[564px] h-[651px]' alt="" />
                 <img src="/assets/intro2.png" className='w-[428px] h-[140px] absolute -bottom-16 -translate-x-1/2 left-1/2' alt="" />
             </div>
-            <div>
-                <h3 className='text-xl leading-[30px] uppercase'>Our Introductio</h3>
+            <div className='order-1 md:order-2'>
+                <h3 className='text-xl leading-[30px] uppercase mt-0 md:mt-10 lg:mt-0'>Our Introductio</h3>
                     <h1 className='livvic-font text-[50px] max-w-[524px] font-semibold leading-[100%]'>Pure Halal Meat and Fresh Quality</h1>
 
                 <div className='mt-14'>
