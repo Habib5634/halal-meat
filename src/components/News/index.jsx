@@ -9,9 +9,10 @@ const News = () => {
 
     <div className='h-[60px] mt-6 pl-5 p-1  flex justify-between items-center rounded-full border border-[#CCCCCC] '>
         <input type="text" className='flex-1 bg-transparent py-2 placeholder:text-[#666666] ' placeholder='Your Email' />
-        <button className='h-full rounded-full bg-[#D72638] text-white text-xl font-semibold px-6 '>Subscribe </button>
+        <button className='h-full hidden sm:block rounded-full bg-[#D72638] text-white text-lg md:text-xl font-semibold px-3 md:px-6 '>Subscribe </button>
 
     </div>
+        <button className='h-full block sm:hidden mt-3 rounded-full bg-[#D72638] text-white text-lg md:text-xl font-semibold px-3 md:px-6 '>Subscribe </button>
 
       </div>
     </div>
